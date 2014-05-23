@@ -23,16 +23,4 @@ To execute the run_analysis.R you are supposed to set the R's Work Directory as 
 * test/X_test.txt - The test measures
 * test/y_test.txt - The coded register of what action produced the test measures
 
-
-The analysis starts with the importation of all the files above, except features_info.
-The train files are concatenated (A), as well as the test files (B). The columns receive temporary label.
-Both datasets are merged, creating only one big data set (Base).
-A new dataset is created selecting only the useful measures from the previous one (NewBase).
-To identify each combination of action and subject a vector (CAT) is created.
-The current dataset is split according to the vector CAT creating SDT.
-The averege os all the measures is calculated for each activity and each subject TD.
-The activities labels are merged to the dataset creating the Tidy dataset.
-English like descriptive activity names are given to the measures and activities in the data set.
-The tidy dataset is ordered in a more intuitive form.
-The tidy data is exported.
-
+When executed, the code proceeds to create from this files a big data set, select only the measures of interes and then use its means for each activity and subject to create a Tidy dataset, that is saved in your Work Directoy.
