@@ -1,4 +1,12 @@
 
+######################################
+#
+#  This script imports and transform the data from the Coursera Project
+#  into a Tidy data.
+#  The description is in the README.MD
+#
+######################################
+
 ##Imports accelerometer data
 
 A1=read.table("train/subject_train.txt")
